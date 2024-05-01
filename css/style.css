@@ -1,28 +1,38 @@
-    html,
-    body {
-      position: relative;
-      height: 100%;
-      margin: 0;
-      padding: 0;
-    }
+html,
+body {
+  position: relative;
+  height: 100%;
+}
 
-    .swiper {
-      width: 100vw;
-      height: 100vh;
-    }
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
 
-    .swiper-slide {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-direction: column;
-    }
+.swiper {
+  width: 100vw;
+  height: 100vh;
+}
 
-    .swiper-slide img {
-      /* display: block; */
-      position: fixed;
-      z-index: -1;
-      width: 100vw;
-      height: 100vh;
-      object-fit: cover;
-    }
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: purple;
+  color: lime;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 80%;
+  object-fit: cover;
+}
+
+
