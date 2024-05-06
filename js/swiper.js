@@ -15,12 +15,12 @@ var swiper = new Swiper(".mySwiper", {
   
    //  autoplay
    autoplay: {
-       delay: 1000,
+       delay: 100000,
        disableOnInteraction: false,
    }, 
 
    //  loop
-   loop: true,
+   //loop: true,
 
    // keyboard
    keyboard: {
